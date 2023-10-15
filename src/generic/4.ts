@@ -11,7 +11,7 @@ class Component<T> {
 }
 
 class Page extends Component<PageProps> {
-  pageInfo () {
+  pageInfo() {
     console.log(this.props.title);
   }
 }
